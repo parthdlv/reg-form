@@ -9,14 +9,15 @@ function jumpscare() {
       background: black;
       z-index: 9999;
     ">
-      <img src="assets/scary.jpg" style="
+      <img src="scary.jpg" style="
         width: 100%;
         height: 100%;
         object-fit: cover;
       ">
       <audio autoplay>
-        <source src="assets/scream.mp3" type="audio/mpeg">
+        <source src="scream.mp3" type="audio/mpeg">
       </audio>
     </div>
   `;
 }
+
